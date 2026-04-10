@@ -1,0 +1,149 @@
+@import "colors.css";
+
+* { 
+    all: unset;
+    font-family: "Rubik", "JetBrainsMono Nerd Font Propo", "Noto Sans CJK JP", "Noto Sans CJK KR";
+    font-size: 9px;
+}
+
+.modules-center { 
+    background-color: #282828;
+    padding: 2px 11px;
+    border-radius: 99px;
+    color: #ebdbb2
+
+}   
+
+#clock {
+    font-weight: 900;
+    color: #ffffff;
+   
+
+}
+
+
+tooltip {
+    background-color: #282828;
+    color: #fff1e6;
+    border-radius: 15px;
+    font-weight: 900;
+} 
+
+
+tooltip box {
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+#workspaces {
+    background-color: #4d4141;
+    padding: 2px 2px;
+    margin: 2px 0;
+    border-radius: 99px;
+}
+
+#workspaces button { 
+    background-color: #878686;
+    padding: 2px 4px;
+    border-radius: 99px;
+    margin: 0 2px;
+    transition: all 0.3s ease-in-out;
+    color: #000000;
+    
+}   
+
+#workspaces button.active { 
+    background-color: #98971a;
+    font-weight: 700;
+    min-width: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+#workspaces button.empty { 
+    background-color:#68635e;  
+}
+
+#workspaces button:hover { 
+    background-color: #e0d0c3;
+    color: black;
+}
+
+#battery { 
+    background-color: #98971a;
+    border-radius: 12px;
+    margin: 4px 0;
+    padding: 0 4px;
+    /* margin-right: 2px;     */
+    font-weight: 700;
+    color: #000000;
+
+}
+
+
+#battery:hover{
+    background-color:#eadb92;
+    transition: all 0.5s ease-in-out;
+   
+}
+
+#battery.warning { 
+    background-color: #f3de9b;
+}
+
+#battery.critical { 
+    background-color: #282828;
+    color: #ebdbb2;
+}
+
+
+#pulseaudio { 
+    background-color: #98971a;
+    border-radius: 12px; 
+    margin: 4px 0;
+    padding: 0 6px;
+    color:rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+#pulseaudio.muted { 
+    color: #000000;
+}
+
+#pulseaudio:hover { 
+    background-color: #e0d0c3;
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+#bluetooth { 
+    background-color: #98971a;
+    border-radius: 12px;
+    margin: 4px 0;
+    padding: 0 6px;
+    color: #000000;
+}
+
+
+#bluetooth.discovering { 
+    color: rgb(236, 236, 154);
+}
+
+
+#bluetooth.connected { 
+    background-color: #458588;
+    color: #ffffff;
+
+}
+
+#idle_inhibitor { 
+    background-color: #98971a;
+    border-radius: 12px;
+    margin: 4px 0;
+    padding: 0 6px;
+    color: #fbeece;
+}
